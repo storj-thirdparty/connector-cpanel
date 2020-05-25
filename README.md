@@ -46,48 +46,6 @@ To clone the repo
 ```
 git clone https://github.com/storj-thirdparty/connector-cpanel.git
 ```
-## Steps to create executable based on server architecture
-
-Change the following command according to the server requirment.
-
-```
-$ env GOOS=target-OS GOARCH=target-architecture go build package-import-path
-```
-
-| GOOS - Target Operating System |  GOARCH - Target Platform|
-| ------------------------------ | ------------------------:|
-| android                        |   arm                    |
-| darwin                         |  386                     |
-| darwin                         |  amd64                   |
-| darwin                         |   arm                    |
-| darwin                         |  386                     |
-| darwin                         |  arm64                   |
-| dragonfly                      |  amd64                   |
-| freebsd                        |  386                     |
-| freebsd                        |  amd64                   |
-| freebsd                        |  arm                     |
-| linux                          |  386                     |
-| linux                          |  amd64                   |
-| linux                          |  arm                     |
-| linux                          |  arm64                   |
-| linux                          |  ppc64                   |
-| linux                          | ppc64le                  |
-| linux                          |  mips                    |
-| linux                          |  mipsle                  |
-| linux                          |  mips64                  |
-| linux                          |  mips64le                |
-| netbsd                         |  386                     |
-| netbsd                         |  amd64                   |
-| netbsd                         |  arm                     |
-| openbsd                        |  386                     |
-| openbsd                        |  amd64                   |
-| openbsd                        |  arm                     |
-| plan9                          |  386                     |
-| plan9                          |  amd64                   |
-| solaris                        |  amd64                   |
-| windows                        |  386                     |
-| windows                        |  amd64                   |
-
 Then, build the project using the following:
 
 ```
@@ -95,9 +53,7 @@ cd connector-cpanel
 go build
 ```
 
-## Upload executable files on server
 
-Place the executable file along with configuration files to the user's home directory.
 
 #### Option #2:  ``go get`` into your gopath
 
@@ -137,9 +93,10 @@ $ ./connector-cpanel store
 
 ## Documentation
 
-For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/Detail) or jump to:
+For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/) or jump to:
 
 * [Config Files](//github.com/storj-thirdparty/connector-cpanel/wiki/#config-files)
 * [Run (long version)](//github.com/utropicmedia/storj-cpanl/wiki/#run)
 * [Testing](//github.com/storj-thirdparty/connector-cpanel/wiki/#testing)
 * [Flow Diagram](//github.com/storj-thirdparty/connector-cpanel/wiki/#flow-diagram)
+
