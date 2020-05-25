@@ -1,0 +1,15 @@
+{ 
+    "apikey":     "change-me-to-the-api-key-created-in-satellite-gui",
+    "satellite":  "us-central-1.tardigrade.io:7777",
+    "bucket":     "change-me-to-desired-bucket-name",
+    "uploadPath": "optionalpath/requiredfilename",
+    "encryptionpassphrase": "you'll never guess this",
+    "serializedScope": "change-me-to-the-api-key-created-in-encryption-access-apiKey",
+    "allowDownload": "true/false-to-disallow-download",
+	"allowUpload": "true/false-to-disallow-upload",
+	"allowList": "true/false-to-disllow-list-buckets",
+	"allowDelete": "true/false-to-disallow-delete",
+	"notBefore": "0/time-set-always-before-notAfter",
+	"notAfter": "0/time-set-always-after-notBefore"
+}
+
