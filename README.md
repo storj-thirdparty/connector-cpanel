@@ -93,7 +93,7 @@ $ ./connector-cpanel store
 
 ## Documentation
 
-For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/) or jump to:
+For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/connector-cpanel/wiki/) or jump to:
 
 * [Config Files](//github.com/storj-thirdparty/connector-cpanel/wiki/#config-files)
 * [Run (long version)](//github.com/utropicmedia/storj-cpanl/wiki/#run)
