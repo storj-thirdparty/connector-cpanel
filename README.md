@@ -23,7 +23,7 @@ Available Commands:
 
 The following flags  can be used with the `store` command:
 
-* `accesskey` - Connects to Storj network using instead of Serialized Access Key instead of API key, satellite url and encryption passphrase.
+* `accesskey` - Connects to the Storj network using a serialized access key instead of an API key, satellite url and encryption passphrase.
 * `shared` - Generates a restricted shareable serialized access with the restrictions specified in the Storj configuration file.
 
 
