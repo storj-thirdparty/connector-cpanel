@@ -1,6 +1,8 @@
 ## connector-cpanel (uplink v1.0.5)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-cpanel)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-cpanel)
+![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-framework/branches/master.svg)
+
 
 ## Overview
 
