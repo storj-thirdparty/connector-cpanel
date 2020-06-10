@@ -1,5 +1,6 @@
 ## connector-cpanel (uplink v1.0.5)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5da0d3aaeb1c4b608b1b7d79521e0bfb)](https://app.codacy.com/gh/storj-thirdparty/connector-cpanel?utm_source=github.com&utm_medium=referral&utm_content=storj-thirdparty/connector-cpanel&utm_campaign=Badge_Grade_Dashboard)
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-cpanel)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-cpanel)
 ![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-cpanel/branches/master.svg)
 
