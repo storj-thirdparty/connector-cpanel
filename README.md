@@ -20,8 +20,6 @@ Available Commands:
 
 ```
 
-
-
 `store` - Connect to the specified cpanel (default: `cpanel_property.json`).  Back-up of the cpanel is generated using tooling provided by cpanel and then uploaded to the Storj network.  Connect to a Storj v3 network using the access specified in the Storj configuration file (default: `storj_config.json`).
 
 The following flags  can be used with the `store` command:
@@ -29,18 +27,13 @@ The following flags  can be used with the `store` command:
 * `accesskey` - Connects to the Storj network using a serialized access key instead of an API key, satellite url and encryption passphrase.
 * `shared` - Generates a restricted shareable serialized access with the restrictions specified in the Storj configuration file.
 
-
 Sample configuration files are provided in the `./config` folder.
-
-
 
 ## Requirements and Install
 
 To build from scratch, [install the latest Go](https://golang.org/doc/install#install).
 
 > Note: Ensure go modules are enabled (GO111MODULE=on)
-
-
 
 #### Option #1: clone this repo (most common)
 
@@ -55,8 +48,6 @@ Then, build the project using the following:
 cd connector-cpanel
 go build
 ```
-
-
 
 #### Option #2:  ``go get`` into your gopath
 
@@ -91,8 +82,6 @@ $ ./connector-cpanel --version
 ```
 $ ./connector-cpanel store
 ```
-
-
 
 ## Documentation
 
