@@ -26,7 +26,7 @@ steps:
     args: ['bash', './test/doc-check.sh']
   - id: go_security
     name: "securego/gosec"
-    args: ["./..." ]
+    args: ["-exclude=G402", "./..." ]
 
 tags: ['cloud-builders-community']
 images: ['gcr.io/$PROJECT_ID/connector-cpanel']
