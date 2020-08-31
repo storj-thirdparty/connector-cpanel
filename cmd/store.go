@@ -41,7 +41,7 @@ func influxStore(cmd *cobra.Command, args []string) {
 	storjConfig := LoadStorjConfiguration(fullFileNameStorj)
 
 	// Connect to storj network using the specified credentials.
-	access, project := ConnectToStorj(fullFileNameStorj, storjConfig, useAccessKey)
+	access, project := ConnectToStorj(storjConfig, useAccessKey)
 
 	// Connect to cPanel instance, create back-up and get information of the back-up file to be uploaded.
 	reader := ConnectToCpanel(configcPanel)

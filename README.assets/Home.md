@@ -6,8 +6,6 @@
 
 There are two config files that contain Storj network and cPanel connection information.  The tool is designed so you can specify a config file as part of your tooling/workflow.
 
-
-
 ##### `cpanel_property.json`
 
 Inside the `./config` directory there is a  `cpanel_property.json` file, with following information about your cPanel instance:
@@ -33,8 +31,6 @@ Inside the `./config` directory a `storj_config.json` file, with Storj network c
 * `allowDelete` - Set *true* to create serialized access with restricted delete
 * `notBefore` - Set time that is always before *notAfter*
 * `notAfter` - Set time that is always after *notBefore*
-
-
 
 ## Run
 
@@ -70,14 +66,13 @@ $ ./connector-cpanel store --accesskey
 $ ./connector-cpanel store --share
 ```
 
-
-
 ##  Testing
 
-The project has been tested on the following operating systems:
+The project has been tested on the following operating system:
 
 ```
 	* ubuntu
 		* Version: 16.04 LTS
 		* Processor: AMD A6-7310 APU with AMD Radeon R4 Graphics × 4
+		* cpanel version: v88.0.14
 ```
