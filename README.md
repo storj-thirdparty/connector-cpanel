@@ -91,4 +91,4 @@ For more information on runtime flags, configuration, testing, and diagrams, che
 * [Run (long version)](//github.com/utropicmedia/storj-cpanl/wiki/#run)
 * [Testing](//github.com/storj-thirdparty/connector-cpanel/wiki/#testing)
 * [Flow Diagram](//github.com/storj-thirdparty/connector-cpanel/wiki/#flow-diagram)
-
+* [Video](//github.com/storj-thirdparty/connector-cpanel/docs/videos)
