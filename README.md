@@ -85,10 +85,15 @@ $ ./connector-cpanel store
 
 ## Documentation
 
-For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/connector-cpanel/wiki/) or jump to:
-
-* [Config Files](//github.com/storj-thirdparty/connector-cpanel/wiki/#config-files)
-* [Run (long version)](//github.com/utropicmedia/storj-cpanl/wiki/#run)
-* [Testing](//github.com/storj-thirdparty/connector-cpanel/wiki/#testing)
-* [Flow Diagram](//github.com/storj-thirdparty/connector-cpanel/wiki/#flow-diagram)
-* [Video](//github.com/storj-thirdparty/connector-cpanel/docs/videos)
+* Access documentation on local system :
+  1) Install [docsify](https://www.npmjs.com/package/docsify-cli)
+  2) Run the following command at the root directory of the cloned project.
+  ```
+  $ docsify serve docs
+  ```
+* For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/connector-cpanel/wiki/) or jump to:
+  * [Config Files](//github.com/storj-thirdparty/connector-cpanel/wiki/#config-files)
+  * [Run (long version)](//github.com/utropicmedia/storj-cpanl/wiki/#run)
+  * [Testing](//github.com/storj-thirdparty/connector-cpanel/wiki/#testing)
+  * [Flow Diagram](//github.com/storj-thirdparty/connector-cpanel/wiki/#flow-diagram)
+  * [Video](//github.com/storj-thirdparty/connector-cpanel/docs/videos)
